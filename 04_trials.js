@@ -7,7 +7,7 @@ const trial_info = {
         {
             question: "Which number do you see here?",
             picture: "vision/ishihara.png",
-            picture_number: 0,
+            pictureNumber: 0,
             min_chars: 0,
             expected: 74
         },
@@ -16,7 +16,7 @@ const trial_info = {
         {
             question: "Which number do you see here?",
             picture: "vision/ishihara2.jpg",
-            picture_number: 0,
+            pictureNumber: 0,
             min_chars: 0,
             expected: 7
         },
@@ -26,7 +26,7 @@ const trial_info = {
         {
             question: "Please make sure you are one arm-length away from your computer screen. Write the letters from line 7 (below the green line) into the box below without tabs or spaces in between (just the letters).",
             picture: "vision/Snellen_chart.jpg",
-            picture_number: 0,
+            pictureNumber: 0,
             min_chars: 1,
             expected: 'FELOPZD'
         },
@@ -54,7 +54,7 @@ const trial_info = {
             picture: "images/001.jpg",
             optionLeft: 'not at all',
             optionRight: 'very',
-            picture_number: 1,
+            pictureNumber: 1,
             artist: 'B',
             date: 1909,
             color: 'colored'
@@ -64,7 +64,7 @@ const trial_info = {
             picture: "images/002.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 2,
+            pictureNumber: 2,
             artist: 'B',
             date: 1909,
             color: 'colored'
@@ -74,7 +74,7 @@ const trial_info = {
             picture: "images/003.jpg",
             optionLeft: 'not at all',
             optionRight: 'very',
-            picture_number: 3,
+            pictureNumber: 3,
             artist: 'B',
             date: 1910,
             color: 'colored'
@@ -84,7 +84,7 @@ const trial_info = {
             picture: "images/004.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 4,
+            pictureNumber: 4,
             artist: 'B',
             date: 1910,
             color: 'colored'
@@ -94,7 +94,7 @@ const trial_info = {
             picture: "images/005.jpg",
             optionLeft: 'not at all',
             optionRight: 'very',
-            picture_number: 5,
+            pictureNumber: 5,
             artist: 'B',
             date: 1910,
             color: 'colored'
@@ -104,7 +104,7 @@ const trial_info = {
             picture: "images/006.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 6,
+            pictureNumber: 6,
             artist: 'B',
             date: 1910,
             color: 'colored'
@@ -114,7 +114,7 @@ const trial_info = {
             picture: "images/007.jpg",
             optionLeft: 'not at all',
             optionRight: 'very',
-            picture_number: 7,
+            pictureNumber: 7,
             artist: 'B',
             date: 1913,
             color: 'colored'
@@ -124,7 +124,7 @@ const trial_info = {
             picture: "images/008.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 8,
+            pictureNumber: 8,
             artist: 'B',
             date: 1909,
             color: 'colored'
@@ -134,7 +134,7 @@ const trial_info = {
             picture: "images/009.jpg",
             optionLeft: 'not at all',
             optionRight: 'very',
-            picture_number: 9,
+            pictureNumber: 9,
             artist: 'B',
             date: 1911,
             color: 'colored'
@@ -144,7 +144,7 @@ const trial_info = {
             picture: "images/010.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 10,
+            pictureNumber: 10,
             artist: 'P',
             date: 1912,
             color: 'colored'
@@ -154,7 +154,7 @@ const trial_info = {
             picture: "images/011.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 11,
+            pictureNumber: 11,
             artist: 'B',
             date: 1911,
             color: 'colored'
@@ -164,7 +164,7 @@ const trial_info = {
             picture: "images/012.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 12,
+            pictureNumber: 12,
             artist: 'P',
             date: 1909,
             color: 'colored'
@@ -174,7 +174,7 @@ const trial_info = {
             picture: "images/013.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 13,
+            pictureNumber: 13,
             artist: 'P',
             date: 1912,
             color: 'colored'
@@ -184,7 +184,7 @@ const trial_info = {
             picture: "images/014.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 14,
+            pictureNumber: 14,
             artist: 'P',
             date: 1910,
             color: 'colored'
@@ -194,7 +194,7 @@ const trial_info = {
             picture: "images/015.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 15,
+            pictureNumber: 15,
             artist: 'P',
             date: 1910,
             color: 'colored'
@@ -204,7 +204,7 @@ const trial_info = {
             picture: "images/016.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 16,
+            pictureNumber: 16,
             artist: 'P',
             date: 1910,
             color: 'colored'
@@ -214,7 +214,7 @@ const trial_info = {
             picture: "images/017.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 17,
+            pictureNumber: 17,
             artist: 'P',
             date: 1911,
             color: 'colored'
@@ -224,7 +224,7 @@ const trial_info = {
             picture: "images/018.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 18,
+            pictureNumber: 18,
             artist: 'P',
             date: 1911,
             color: 'colored'
@@ -234,7 +234,7 @@ const trial_info = {
             picture: "images/019.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 19,
+            pictureNumber: 19,
             artist: 'P',
             date: 1911,
             color: 'colored'
@@ -244,7 +244,7 @@ const trial_info = {
             picture: "images/020.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 20,
+            pictureNumber: 20,
             artist: 'P',
             date: 1911,
             color: 'colored'
@@ -254,7 +254,7 @@ const trial_info = {
             picture: "images/021.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 21,
+            pictureNumber: 21,
             artist: 'P',
             date: 1910,
             color: 'colored'
@@ -264,7 +264,7 @@ const trial_info = {
             picture: "images/022.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 22,
+            pictureNumber: 22,
             artist: 'P',
             date: 1910,
             color: 'colored'
@@ -274,7 +274,7 @@ const trial_info = {
             picture: "images/023.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 23,
+            pictureNumber: 23,
             artist: 'P',
             date: 1911,
             color: 'colored'
@@ -284,7 +284,7 @@ const trial_info = {
             picture: "images/024.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 24,
+            pictureNumber: 24,
             artist: 'P',
             date: 1911,
             color: 'colored'
@@ -294,7 +294,7 @@ const trial_info = {
             picture: "images/025.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 25,
+            pictureNumber: 25,
             artist: 'P',
             date: 1911,
             color: 'colored'
@@ -304,7 +304,7 @@ const trial_info = {
             picture: "images/026.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 26,
+            pictureNumber: 26,
             artist: 'P',
             date: 1911,
             color: 'colored'
@@ -314,7 +314,7 @@ const trial_info = {
             picture: "images/027.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 27,
+            pictureNumber: 27,
             artist: 'P',
             date: 1911,
             color: 'colored'
@@ -324,7 +324,7 @@ const trial_info = {
             picture: "images/028.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 28,
+            pictureNumber: 28,
             artist: 'P',
             date: 1911,
             color: 'colored'
@@ -334,7 +334,7 @@ const trial_info = {
             picture: "images/029.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 29,
+            pictureNumber: 29,
             artist: 'P',
             date: 1912,
             color: 'colored'
@@ -344,7 +344,7 @@ const trial_info = {
             picture: "images/030.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 30,
+            pictureNumber: 30,
             artist: 'P',
             date: 1912,
             color: 'colored'
@@ -354,7 +354,7 @@ const trial_info = {
             picture: "images/031.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 31,
+            pictureNumber: 31,
             artist: 'P',
             date: 1909,
             color: 'colored'
@@ -364,7 +364,7 @@ const trial_info = {
             picture: "images/032.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 32,
+            pictureNumber: 32,
             artist: 'P',
             date: 1910,
             color: 'colored'
@@ -374,7 +374,7 @@ const trial_info = {
             picture: "images/033.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 33,
+            pictureNumber: 33,
             artist: 'B',
             date: 1910,
             color: 'colored'
@@ -384,7 +384,7 @@ const trial_info = {
             picture: "images/034.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 34,
+            pictureNumber: 34,
             artist: 'B',
             date: 1911,
             color: 'colored'
@@ -394,7 +394,7 @@ const trial_info = {
             picture: "images/035.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 35,
+            pictureNumber: 35,
             artist: 'B',
             date: 1911,
             color: 'colored'
@@ -404,7 +404,7 @@ const trial_info = {
             picture: "images/036.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 36,
+            pictureNumber: 36,
             artist: 'B',
             date: 1908,
             color: 'monochrome'
@@ -414,7 +414,7 @@ const trial_info = {
             picture: "images/037.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 37,
+            pictureNumber: 37,
             artist: 'B',
             date: 1909,
             color: 'monochrome'
@@ -424,7 +424,7 @@ const trial_info = {
             picture: "images/038.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 38,
+            pictureNumber: 38,
             artist: 'B',
             date: 1910,
             color: 'monochrome'
@@ -434,7 +434,7 @@ const trial_info = {
             picture: "images/039.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 39,
+            pictureNumber: 39,
             artist: 'B',
             date: 1911,
             color: 'monochrome'
@@ -444,7 +444,7 @@ const trial_info = {
             picture: "images/040.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 40,
+            pictureNumber: 40,
             artist: 'B',
             date: 1912,
             color: 'monochrome'
@@ -454,7 +454,7 @@ const trial_info = {
             picture: "images/041.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 41,
+            pictureNumber: 41,
             artist: 'B',
             date: 1908,
             color: 'monochrome'
@@ -464,7 +464,7 @@ const trial_info = {
             picture: "images/042.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 42,
+            pictureNumber: 42,
             artist: 'B',
             date: 1909,
             color: 'monochrome'
@@ -474,7 +474,7 @@ const trial_info = {
             picture: "images/043.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 43,
+            pictureNumber: 43,
             artist: 'B',
             date: 1909,
             color: 'monochrome'
@@ -484,7 +484,7 @@ const trial_info = {
             picture: "images/044.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 44,
+            pictureNumber: 44,
             artist: 'B',
             date: 1910,
             color: 'monochrome'
@@ -494,7 +494,7 @@ const trial_info = {
             picture: "images/045.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 45,
+            pictureNumber: 45,
             artist: 'B',
             date: 1911,
             color: 'monochrome'
@@ -504,7 +504,7 @@ const trial_info = {
             picture: "images/046.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 46,
+            pictureNumber: 46,
             artist: 'B',
             date: 1911,
             color: 'monochrome'
@@ -514,7 +514,7 @@ const trial_info = {
             picture: "images/047.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 47,
+            pictureNumber: 47,
             artist: 'B',
             date: 1909,
             color: 'monochrome'
@@ -524,7 +524,7 @@ const trial_info = {
             picture: "images/048.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 48,
+            pictureNumber: 48,
             artist: 'B',
             date: 1911,
             color: 'monochrome'
@@ -534,7 +534,7 @@ const trial_info = {
             picture: "images/049.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 49,
+            pictureNumber: 49,
             artist: 'B',
             date: 1911,
             color: 'monochrome'
@@ -544,7 +544,7 @@ const trial_info = {
             picture: "images/050.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 50,
+            pictureNumber: 50,
             artist: 'B',
             date: 1911,
             color: 'monochrome'
@@ -554,7 +554,7 @@ const trial_info = {
             picture: "images/051.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 51,
+            pictureNumber: 51,
             artist: 'P',
             date: 1913,
             color: 'monochrome'
@@ -564,7 +564,7 @@ const trial_info = {
             picture: "images/052.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 52,
+            pictureNumber: 52,
             artist: 'P',
             date: 1911,
             color: 'monochrome'
@@ -574,7 +574,7 @@ const trial_info = {
             picture: "images/053.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 53,
+            pictureNumber: 53,
             artist: 'P',
             date: 1911,
             color: 'monochrome'
@@ -584,7 +584,7 @@ const trial_info = {
             picture: "images/054.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 54,
+            pictureNumber: 54,
             artist: 'P',
             date: 1910,
             color: 'monochrome'
@@ -594,7 +594,7 @@ const trial_info = {
             picture: "images/055.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 55,
+            pictureNumber: 55,
             artist: 'P',
             date: 1911,
             color: 'monochrome'
@@ -604,7 +604,7 @@ const trial_info = {
             picture: "images/056.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 56,
+            pictureNumber: 56,
             artist: 'P',
             date: 1911,
             color: 'monochrome'
@@ -614,7 +614,7 @@ const trial_info = {
             picture: "images/057.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 57,
+            pictureNumber: 57,
             artist: 'P',
             date: 1911,
             color: 'monochrome'
@@ -624,7 +624,7 @@ const trial_info = {
             picture: "images/058.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 58,
+            pictureNumber: 58,
             artist: 'P',
             date: 1914,
             color: 'monochrome'
@@ -634,7 +634,7 @@ const trial_info = {
             picture: "images/059.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 59,
+            pictureNumber: 59,
             artist: 'P',
             date: 1909,
             color: 'monochrome'
@@ -644,7 +644,7 @@ const trial_info = {
             picture: "images/060.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 60,
+            pictureNumber: 60,
             artist: 'P',
             date: 1912,
             color: 'monochrome'
@@ -654,7 +654,7 @@ const trial_info = {
             picture: "images/061.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 61,
+            pictureNumber: 61,
             artist: 'P',
             date: 1909,
             color: 'monochrome'
@@ -664,7 +664,7 @@ const trial_info = {
             picture: "images/062.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 62,
+            pictureNumber: 62,
             artist: 'P',
             date: 1912,
             color: 'monochrome'
@@ -674,7 +674,7 @@ const trial_info = {
             picture: "images/063.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 63,
+            pictureNumber: 63,
             artist: 'P',
             date: 1914,
             color: 'monochrome'
@@ -684,7 +684,7 @@ const trial_info = {
             picture: "images/064.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 64,
+            pictureNumber: 64,
             artist: 'P',
             date: 1911,
             color: 'monochrome'
@@ -694,7 +694,7 @@ const trial_info = {
             picture: "images/065.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 65,
+            pictureNumber: 65,
             artist: 'B',
             date: 1911,
             color: 'monochrome'
@@ -704,7 +704,7 @@ const trial_info = {
             picture: "images/066.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 66,
+            pictureNumber: 66,
             artist: 'B',
             date: 1910,
             color: 'monochrome'
@@ -714,7 +714,7 @@ const trial_info = {
             picture: "images/067.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 67,
+            pictureNumber: 67,
             artist: 'P',
             date: 1911,
             color: 'monochrome'
@@ -724,7 +724,7 @@ const trial_info = {
             picture: "images/068.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 68,
+            pictureNumber: 68,
             artist: 'P',
             date: 1910,
             color: 'monochrome'
@@ -734,7 +734,7 @@ const trial_info = {
             picture: "images/069.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 69,
+            pictureNumber: 69,
             artist: 'P',
             date: 1910,
             color: 'monochrome'
@@ -744,7 +744,7 @@ const trial_info = {
             picture: "images/070.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 70,
+            pictureNumber: 70,
             artist: 'P',
             date: 1910,
             color: 'monochrome'
@@ -754,7 +754,7 @@ const trial_info = {
             picture: "images/071.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 71,
+            pictureNumber: 71,
             artist: 'P',
             date: 1911,
             color: 'monochrome'
@@ -764,7 +764,7 @@ const trial_info = {
             picture: "images/072.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 72,
+            pictureNumber: 72,
             artist: 'G',
             date: 1915,
             color: 'colored'
@@ -774,7 +774,7 @@ const trial_info = {
             picture: "images/073.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 73,
+            pictureNumber: 73,
             artist: 'G',
             date: 1914,
             color: 'colored'
@@ -784,7 +784,7 @@ const trial_info = {
             picture: "images/074.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 74,
+            pictureNumber: 74,
             artist: 'G',
             date: 1919,
             color: 'colored'
@@ -794,7 +794,7 @@ const trial_info = {
             picture: "images/075.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 75,
+            pictureNumber: 75,
             artist: 'G',
             date: 1915,
             color: 'colored'
@@ -804,7 +804,7 @@ const trial_info = {
             picture: "images/076.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 76,
+            pictureNumber: 76,
             artist: 'G',
             date: 1915,
             color: 'colored'
@@ -814,7 +814,7 @@ const trial_info = {
             picture: "images/077.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 77,
+            pictureNumber: 77,
             artist: 'G',
             date: 1915,
             color: 'colored'
@@ -824,7 +824,7 @@ const trial_info = {
             picture: "images/078.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 78,
+            pictureNumber: 78,
             artist: 'G',
             date: 1914,
             color: 'colored'
@@ -834,7 +834,7 @@ const trial_info = {
             picture: "images/079.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 79,
+            pictureNumber: 79,
             artist: 'G',
             date: 1914,
             color: 'colored'
@@ -844,7 +844,7 @@ const trial_info = {
             picture: "images/080.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 80,
+            pictureNumber: 80,
             artist: 'G',
             date: 1914,
             color: 'colored'
@@ -854,7 +854,7 @@ const trial_info = {
             picture: "images/081.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 81,
+            pictureNumber: 81,
             artist: 'G',
             date: 1914,
             color: 'colored'
@@ -864,7 +864,7 @@ const trial_info = {
             picture: "images/082.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 82,
+            pictureNumber: 82,
             artist: 'G',
             date: 1913,
             color: 'colored'
@@ -874,7 +874,7 @@ const trial_info = {
             picture: "images/083.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 83,
+            pictureNumber: 83,
             artist: 'G',
             date: 1912,
             color: 'colored'
@@ -884,7 +884,7 @@ const trial_info = {
             picture: "images/084.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 84,
+            pictureNumber: 84,
             artist: 'G',
             date: 1912,
             color: 'colored'
@@ -894,7 +894,7 @@ const trial_info = {
             picture: "images/085.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 85,
+            pictureNumber: 85,
             artist: 'G',
             date: 1914,
             color: 'colored'
@@ -904,7 +904,7 @@ const trial_info = {
             picture: "images/086.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 86,
+            pictureNumber: 86,
             artist: 'G',
             date: 1913,
             color: 'colored'
@@ -914,7 +914,7 @@ const trial_info = {
             picture: "images/087.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 87,
+            pictureNumber: 87,
             artist: 'G',
             date: 1913,
             color: 'colored'
@@ -924,7 +924,7 @@ const trial_info = {
             picture: "images/088.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 88,
+            pictureNumber: 88,
             artist: 'G',
             date: 1916,
             color: 'colored'
@@ -934,7 +934,7 @@ const trial_info = {
             picture: "images/089.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 89,
+            pictureNumber: 89,
             artist: 'G',
             date: 1913,
             color: 'colored'
@@ -944,7 +944,7 @@ const trial_info = {
             picture: "images/090.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 90,
+            pictureNumber: 90,
             artist: 'G',
             date: 1914,
             color: 'colored'
@@ -954,7 +954,7 @@ const trial_info = {
             picture: "images/091.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 91,
+            pictureNumber: 91,
             artist: 'G',
             date: 1915,
             color: 'colored'
@@ -964,7 +964,7 @@ const trial_info = {
             picture: "images/092.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 92,
+            pictureNumber: 92,
             artist: 'G',
             date: 1919,
             color: 'monochrome'
@@ -974,7 +974,7 @@ const trial_info = {
             picture: "images/093.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 93,
+            pictureNumber: 93,
             artist: 'G',
             date: 1919,
             color: 'monochrome'
@@ -984,7 +984,7 @@ const trial_info = {
             picture: "images/094.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 94,
+            pictureNumber: 94,
             artist: 'G',
             date: 1917,
             color: 'monochrome'
@@ -994,7 +994,7 @@ const trial_info = {
             picture: "images/095.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 95,
+            pictureNumber: 95,
             artist: 'G',
             date: 1917,
             color: 'monochrome'
@@ -1004,7 +1004,7 @@ const trial_info = {
             picture: "images/096.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 96,
+            pictureNumber: 96,
             artist: 'G',
             date: 1913,
             color: 'monochrome'
@@ -1014,7 +1014,7 @@ const trial_info = {
             picture: "images/097.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 97,
+            pictureNumber: 97,
             artist: 'G',
             date: 1917,
             color: 'monochrome'
@@ -1024,7 +1024,7 @@ const trial_info = {
             picture: "images/098.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 98,
+            pictureNumber: 98,
             artist: 'G',
             date: 1917,
             color: 'monochrome'
@@ -1034,7 +1034,7 @@ const trial_info = {
             picture: "images/099.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 99,
+            pictureNumber: 99,
             artist: 'G',
             date: 1916,
             color: 'monochrome'
@@ -1044,7 +1044,7 @@ const trial_info = {
             picture: "images/100.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 100,
+            pictureNumber: 100,
             artist: 'G',
             date: 1916,
             color: 'monochrome'
@@ -1054,7 +1054,7 @@ const trial_info = {
             picture: "images/101.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 101,
+            pictureNumber: 101,
             artist: 'G',
             date: 1915,
             color: 'monochrome'
@@ -1064,7 +1064,7 @@ const trial_info = {
             picture: "images/102.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 102,
+            pictureNumber: 102,
             artist: 'G',
             date: 1915,
             color: 'monochrome'
@@ -1074,7 +1074,7 @@ const trial_info = {
             picture: "images/103.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 103,
+            pictureNumber: 103,
             artist: 'G',
             date: 1916,
             color: 'monochrome'
@@ -1084,7 +1084,7 @@ const trial_info = {
             picture: "images/104.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 104,
+            pictureNumber: 104,
             artist: 'G',
             date: 1915,
             color: 'monochrome'
@@ -1094,7 +1094,7 @@ const trial_info = {
             picture: "images/105.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 105,
+            pictureNumber: 105,
             artist: 'G',
             date: 1914,
             color: 'monochrome'
@@ -1104,7 +1104,7 @@ const trial_info = {
             picture: "images/106.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 106,
+            pictureNumber: 106,
             artist: 'G',
             date: 1914,
             color: 'monochrome'
@@ -1114,7 +1114,7 @@ const trial_info = {
             picture: "images/107.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 107,
+            pictureNumber: 107,
             artist: 'G',
             date: 1914,
             color: 'monochrome'
@@ -1124,7 +1124,7 @@ const trial_info = {
             picture: "images/108.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 108,
+            pictureNumber: 108,
             artist: 'G',
             date: 1914,
             color: 'monochrome'
@@ -1134,7 +1134,7 @@ const trial_info = {
             picture: "images/109.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 109,
+            pictureNumber: 109,
             artist: 'G',
             date: 1913,
             color: 'monochrome'
@@ -1144,7 +1144,7 @@ const trial_info = {
             picture: "images/110.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 110,
+            pictureNumber: 110,
             artist: 'G',
             date: 1912,
             color: 'monochrome'
@@ -1154,7 +1154,7 @@ const trial_info = {
             picture: "images/111.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 111,
+            pictureNumber: 111,
             artist: 'G',
             date: 1915,
             color: 'monochrome'
@@ -1164,7 +1164,7 @@ const trial_info = {
             picture: "images/112.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 112,
+            pictureNumber: 112,
             artist: 'P',
             date: 1911,
             color: 'colored'
@@ -1174,7 +1174,7 @@ const trial_info = {
             picture: "images/113.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 113,
+            pictureNumber: 113,
             artist: 'P',
             date: 1910,
             color: 'colored'
@@ -1184,7 +1184,7 @@ const trial_info = {
             picture: "images/114.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 114,
+            pictureNumber: 114,
             artist: 'B',
             date: 1909,
             color: 'monochrome'
@@ -1194,7 +1194,7 @@ const trial_info = {
             picture: "images/115.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 115,
+            pictureNumber: 115,
             artist: 'P',
             date: 1910,
             color: 'colored'
@@ -1204,7 +1204,7 @@ const trial_info = {
             picture: "images/116.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 116,
+            pictureNumber: 116,
             artist: 'P',
             date: 1911,
             color: 'monochrome'
@@ -1214,7 +1214,7 @@ const trial_info = {
             picture: "images/117.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 117,
+            pictureNumber: 117,
             artist: 'B',
             date: 1910,
             color: 'colored'
@@ -1224,7 +1224,7 @@ const trial_info = {
             picture: "images/118.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 118,
+            pictureNumber: 118,
             artist: 'P',
             date: 1913,
             color: 'monochrome'
@@ -1234,7 +1234,7 @@ const trial_info = {
             picture: "images/119.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 119,
+            pictureNumber: 119,
             artist: 'B',
             date: 1913,
             color: 'colored'
@@ -1244,7 +1244,7 @@ const trial_info = {
             picture: "images/120.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 120,
+            pictureNumber: 120,
             artist: 'P',
             date: 1912,
             color: 'monochrome'
@@ -1259,7 +1259,7 @@ const trial_info = {
             picture: "images/001.jpg",
             optionLeft: 'not at all',
             optionRight: 'very',
-            picture_number: 1,
+            pictureNumber: 1,
             artist: 'B',
             date: 1909,
             color: 'colored'
@@ -1269,7 +1269,7 @@ const trial_info = {
             picture: "images/002.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 2,
+            pictureNumber: 2,
             artist: 'B',
             date: 1909,
             color: 'colored'
@@ -1279,7 +1279,7 @@ const trial_info = {
             picture: "images/003.jpg",
             optionLeft: 'not at all',
             optionRight: 'very',
-            picture_number: 3,
+            pictureNumber: 3,
             artist: 'B',
             date: 1910,
             color: 'colored'
@@ -1289,7 +1289,7 @@ const trial_info = {
             picture: "images/004.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 4,
+            pictureNumber: 4,
             artist: 'B',
             date: 1910,
             color: 'colored'
@@ -1299,7 +1299,7 @@ const trial_info = {
             picture: "images/005.jpg",
             optionLeft: 'not at all',
             optionRight: 'very',
-            picture_number: 5,
+            pictureNumber: 5,
             artist: 'B',
             date: 1910,
             color: 'colored'
@@ -1309,7 +1309,7 @@ const trial_info = {
             picture: "images/006.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 6,
+            pictureNumber: 6,
             artist: 'B',
             date: 1910,
             color: 'colored'
@@ -1319,7 +1319,7 @@ const trial_info = {
             picture: "images/007.jpg",
             optionLeft: 'not at all',
             optionRight: 'very',
-            picture_number: 7,
+            pictureNumber: 7,
             artist: 'B',
             date: 1913,
             color: 'colored'
@@ -1329,7 +1329,7 @@ const trial_info = {
             picture: "images/008.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 8,
+            pictureNumber: 8,
             artist: 'B',
             date: 1909,
             color: 'colored'
@@ -1339,7 +1339,7 @@ const trial_info = {
             picture: "images/009.jpg",
             optionLeft: 'not at all',
             optionRight: 'very',
-            picture_number: 9,
+            pictureNumber: 9,
             artist: 'B',
             date: 1911,
             color: 'colored'
@@ -1349,7 +1349,7 @@ const trial_info = {
             picture: "images/010.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 10,
+            pictureNumber: 10,
             artist: 'P',
             date: 1912,
             color: 'colored'
@@ -1359,7 +1359,7 @@ const trial_info = {
             picture: "images/011.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 11,
+            pictureNumber: 11,
             artist: 'B',
             date: 1911,
             color: 'colored'
@@ -1369,7 +1369,7 @@ const trial_info = {
             picture: "images/012.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 12,
+            pictureNumber: 12,
             artist: 'P',
             date: 1909,
             color: 'colored'
@@ -1379,7 +1379,7 @@ const trial_info = {
             picture: "images/013.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 13,
+            pictureNumber: 13,
             artist: 'P',
             date: 1912,
             color: 'colored'
@@ -1389,7 +1389,7 @@ const trial_info = {
             picture: "images/014.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 14,
+            pictureNumber: 14,
             artist: 'P',
             date: 1910,
             color: 'colored'
@@ -1399,7 +1399,7 @@ const trial_info = {
             picture: "images/015.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 15,
+            pictureNumber: 15,
             artist: 'P',
             date: 1910,
             color: 'colored'
@@ -1409,7 +1409,7 @@ const trial_info = {
             picture: "images/016.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 16,
+            pictureNumber: 16,
             artist: 'P',
             date: 1910,
             color: 'colored'
@@ -1419,7 +1419,7 @@ const trial_info = {
             picture: "images/017.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 17,
+            pictureNumber: 17,
             artist: 'P',
             date: 1911,
             color: 'colored'
@@ -1429,7 +1429,7 @@ const trial_info = {
             picture: "images/018.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 18,
+            pictureNumber: 18,
             artist: 'P',
             date: 1911,
             color: 'colored'
@@ -1439,7 +1439,7 @@ const trial_info = {
             picture: "images/019.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 19,
+            pictureNumber: 19,
             artist: 'P',
             date: 1911,
             color: 'colored'
@@ -1449,7 +1449,7 @@ const trial_info = {
             picture: "images/020.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 20,
+            pictureNumber: 20,
             artist: 'P',
             date: 1911,
             color: 'colored'
@@ -1459,7 +1459,7 @@ const trial_info = {
             picture: "images/021.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 21,
+            pictureNumber: 21,
             artist: 'P',
             date: 1910,
             color: 'colored'
@@ -1469,7 +1469,7 @@ const trial_info = {
             picture: "images/022.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 22,
+            pictureNumber: 22,
             artist: 'P',
             date: 1910,
             color: 'colored'
@@ -1479,7 +1479,7 @@ const trial_info = {
             picture: "images/023.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 23,
+            pictureNumber: 23,
             artist: 'P',
             date: 1911,
             color: 'colored'
@@ -1489,7 +1489,7 @@ const trial_info = {
             picture: "images/024.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 24,
+            pictureNumber: 24,
             artist: 'P',
             date: 1911,
             color: 'colored'
@@ -1499,7 +1499,7 @@ const trial_info = {
             picture: "images/025.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 25,
+            pictureNumber: 25,
             artist: 'P',
             date: 1911,
             color: 'colored'
@@ -1509,7 +1509,7 @@ const trial_info = {
             picture: "images/026.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 26,
+            pictureNumber: 26,
             artist: 'P',
             date: 1911,
             color: 'colored'
@@ -1519,7 +1519,7 @@ const trial_info = {
             picture: "images/027.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 27,
+            pictureNumber: 27,
             artist: 'P',
             date: 1911,
             color: 'colored'
@@ -1529,7 +1529,7 @@ const trial_info = {
             picture: "images/028.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 28,
+            pictureNumber: 28,
             artist: 'P',
             date: 1911,
             color: 'colored'
@@ -1539,7 +1539,7 @@ const trial_info = {
             picture: "images/029.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 29,
+            pictureNumber: 29,
             artist: 'P',
             date: 1912,
             color: 'colored'
@@ -1549,7 +1549,7 @@ const trial_info = {
             picture: "images/030.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 30,
+            pictureNumber: 30,
             artist: 'P',
             date: 1912,
             color: 'colored'
@@ -1559,7 +1559,7 @@ const trial_info = {
             picture: "images/031.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 31,
+            pictureNumber: 31,
             artist: 'P',
             date: 1909,
             color: 'colored'
@@ -1569,7 +1569,7 @@ const trial_info = {
             picture: "images/032.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 32,
+            pictureNumber: 32,
             artist: 'P',
             date: 1910,
             color: 'colored'
@@ -1579,7 +1579,7 @@ const trial_info = {
             picture: "images/033.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 33,
+            pictureNumber: 33,
             artist: 'B',
             date: 1910,
             color: 'colored'
@@ -1589,7 +1589,7 @@ const trial_info = {
             picture: "images/034.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 34,
+            pictureNumber: 34,
             artist: 'B',
             date: 1911,
             color: 'colored'
@@ -1599,7 +1599,7 @@ const trial_info = {
             picture: "images/035.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 35,
+            pictureNumber: 35,
             artist: 'B',
             date: 1911,
             color: 'colored'
@@ -1609,7 +1609,7 @@ const trial_info = {
             picture: "images/036.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 36,
+            pictureNumber: 36,
             artist: 'B',
             date: 1908,
             color: 'colored'
@@ -1619,7 +1619,7 @@ const trial_info = {
             picture: "images/037.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 37,
+            pictureNumber: 37,
             artist: 'B',
             date: 1909,
             color: 'monochrome'
@@ -1629,7 +1629,7 @@ const trial_info = {
             picture: "images/038.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 38,
+            pictureNumber: 38,
             artist: 'B',
             date: 1910,
             color: 'monochrome'
@@ -1639,7 +1639,7 @@ const trial_info = {
             picture: "images/039.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 39,
+            pictureNumber: 39,
             artist: 'B',
             date: 1911,
             color: 'monochrome'
@@ -1649,7 +1649,7 @@ const trial_info = {
             picture: "images/040.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 40,
+            pictureNumber: 40,
             artist: 'B',
             date: 1912,
             color: 'monochrome'
@@ -1659,7 +1659,7 @@ const trial_info = {
             picture: "images/041.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 41,
+            pictureNumber: 41,
             artist: 'B',
             date: 1908,
             color: 'monochrome'
@@ -1669,7 +1669,7 @@ const trial_info = {
             picture: "images/042.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 42,
+            pictureNumber: 42,
             artist: 'B',
             date: 1909,
             color: 'monochrome'
@@ -1679,7 +1679,7 @@ const trial_info = {
             picture: "images/043.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 43,
+            pictureNumber: 43,
             artist: 'B',
             date: 1909,
             color: 'monochrome'
@@ -1689,7 +1689,7 @@ const trial_info = {
             picture: "images/044.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 44,
+            pictureNumber: 44,
             artist: 'B',
             date: 1910,
             color: 'monochrome'
@@ -1699,7 +1699,7 @@ const trial_info = {
             picture: "images/045.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 45,
+            pictureNumber: 45,
             artist: 'B',
             date: 1911,
             color: 'monochrome'
@@ -1709,7 +1709,7 @@ const trial_info = {
             picture: "images/046.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 46,
+            pictureNumber: 46,
             artist: 'B',
             date: 1911,
             color: 'monochrome'
@@ -1719,7 +1719,7 @@ const trial_info = {
             picture: "images/047.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 47,
+            pictureNumber: 47,
             artist: 'B',
             date: 1909,
             color: 'monochrome'
@@ -1729,7 +1729,7 @@ const trial_info = {
             picture: "images/048.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 48,
+            pictureNumber: 48,
             artist: 'B',
             date: 1911,
             color: 'monochrome'
@@ -1739,7 +1739,7 @@ const trial_info = {
             picture: "images/049.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 49,
+            pictureNumber: 49,
             artist: 'B',
             date: 1911,
             color: 'monochrome'
@@ -1749,7 +1749,7 @@ const trial_info = {
             picture: "images/050.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 50,
+            pictureNumber: 50,
             artist: 'B',
             date: 1911,
             color: 'monochrome'
@@ -1759,7 +1759,7 @@ const trial_info = {
             picture: "images/051.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 51,
+            pictureNumber: 51,
             artist: 'P',
             date: 1913,
             color: 'monochrome'
@@ -1769,7 +1769,7 @@ const trial_info = {
             picture: "images/052.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 52,
+            pictureNumber: 52,
             artist: 'P',
             date: 1911,
             color: 'monochrome'
@@ -1779,7 +1779,7 @@ const trial_info = {
             picture: "images/053.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 53,
+            pictureNumber: 53,
             artist: 'P',
             date: 1911,
             color: 'monochrome'
@@ -1789,7 +1789,7 @@ const trial_info = {
             picture: "images/054.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 54,
+            pictureNumber: 54,
             artist: 'P',
             date: 1910,
             color: 'monochrome'
@@ -1799,7 +1799,7 @@ const trial_info = {
             picture: "images/055.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 55,
+            pictureNumber: 55,
             artist: 'P',
             date: 1911,
             color: 'monochrome'
@@ -1809,7 +1809,7 @@ const trial_info = {
             picture: "images/056.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 56,
+            pictureNumber: 56,
             artist: 'P',
             date: 1911,
             color: 'monochrome'
@@ -1819,7 +1819,7 @@ const trial_info = {
             picture: "images/057.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 57,
+            pictureNumber: 57,
             artist: 'P',
             date: 1911,
             color: 'monochrome'
@@ -1829,7 +1829,7 @@ const trial_info = {
             picture: "images/058.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 58,
+            pictureNumber: 58,
             artist: 'P',
             date: 1914,
             color: 'monochrome'
@@ -1839,7 +1839,7 @@ const trial_info = {
             picture: "images/059.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 59,
+            pictureNumber: 59,
             artist: 'P',
             date: 1909,
             color: 'monochrome'
@@ -1849,7 +1849,7 @@ const trial_info = {
             picture: "images/060.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 60,
+            pictureNumber: 60,
             artist: 'P',
             date: 1912,
             color: 'monochrome'
@@ -1859,7 +1859,7 @@ const trial_info = {
             picture: "images/061.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 61,
+            pictureNumber: 61,
             artist: 'P',
             date: 1909,
             color: 'monochrome'
@@ -1869,7 +1869,7 @@ const trial_info = {
             picture: "images/062.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 62,
+            pictureNumber: 62,
             artist: 'P',
             date: 1912,
             color: 'monochrome'
@@ -1879,7 +1879,7 @@ const trial_info = {
             picture: "images/063.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 63,
+            pictureNumber: 63,
             artist: 'P',
             date: 1914,
             color: 'monochrome'
@@ -1889,7 +1889,7 @@ const trial_info = {
             picture: "images/064.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 64,
+            pictureNumber: 64,
             artist: 'P',
             date: 1911,
             color: 'monochrome'
@@ -1899,7 +1899,7 @@ const trial_info = {
             picture: "images/065.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 65,
+            pictureNumber: 65,
             artist: 'B',
             date: 1911,
             color: 'monochrome'
@@ -1909,7 +1909,7 @@ const trial_info = {
             picture: "images/066.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 66,
+            pictureNumber: 66,
             artist: 'B',
             date: 1910,
             color: 'monochrome'
@@ -1919,7 +1919,7 @@ const trial_info = {
             picture: "images/067.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 67,
+            pictureNumber: 67,
             artist: 'P',
             date: 1911,
             color: 'monochrome'
@@ -1929,7 +1929,7 @@ const trial_info = {
             picture: "images/068.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 68,
+            pictureNumber: 68,
             artist: 'P',
             date: 1910,
             color: 'monochrome'
@@ -1939,7 +1939,7 @@ const trial_info = {
             picture: "images/069.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 69,
+            pictureNumber: 69,
             artist: 'P',
             date: 1910,
             color: 'monochrome'
@@ -1949,7 +1949,7 @@ const trial_info = {
             picture: "images/070.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 70,
+            pictureNumber: 70,
             artist: 'P',
             date: 1910,
             color: 'monochrome'
@@ -1959,7 +1959,7 @@ const trial_info = {
             picture: "images/071.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 71,
+            pictureNumber: 71,
             artist: 'P',
             date: 1911,
             color: 'monochrome'
@@ -1969,7 +1969,7 @@ const trial_info = {
             picture: "images/072.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 72,
+            pictureNumber: 72,
             artist: 'G',
             date: 1915,
             color: 'colored'
@@ -1979,7 +1979,7 @@ const trial_info = {
             picture: "images/073.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 73,
+            pictureNumber: 73,
             artist: 'G',
             date: 1914,
             color: 'colored'
@@ -1989,7 +1989,7 @@ const trial_info = {
             picture: "images/074.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 74,
+            pictureNumber: 74,
             artist: 'G',
             date: 1919,
             color: 'colored'
@@ -1999,7 +1999,7 @@ const trial_info = {
             picture: "images/075.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 75,
+            pictureNumber: 75,
             artist: 'G',
             date: 1915,
             color: 'colored'
@@ -2009,7 +2009,7 @@ const trial_info = {
             picture: "images/076.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 76,
+            pictureNumber: 76,
             artist: 'G',
             date: 1915,
             color: 'colored'
@@ -2019,7 +2019,7 @@ const trial_info = {
             picture: "images/077.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 77,
+            pictureNumber: 77,
             artist: 'G',
             date: 1915,
             color: 'colored'
@@ -2029,7 +2029,7 @@ const trial_info = {
             picture: "images/078.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 78,
+            pictureNumber: 78,
             artist: 'G',
             date: 1914,
             color: 'colored'
@@ -2039,7 +2039,7 @@ const trial_info = {
             picture: "images/079.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 79,
+            pictureNumber: 79,
             artist: 'G',
             date: 1914,
             color: 'colored'
@@ -2049,7 +2049,7 @@ const trial_info = {
             picture: "images/080.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 80,
+            pictureNumber: 80,
             artist: 'G',
             date: 1914,
             color: 'colored'
@@ -2059,7 +2059,7 @@ const trial_info = {
             picture: "images/081.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 81,
+            pictureNumber: 81,
             artist: 'G',
             date: 1914,
             color: 'colored'
@@ -2069,7 +2069,7 @@ const trial_info = {
             picture: "images/082.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 82,
+            pictureNumber: 82,
             artist: 'G',
             date: 1913,
             color: 'colored'
@@ -2079,7 +2079,7 @@ const trial_info = {
             picture: "images/083.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 83,
+            pictureNumber: 83,
             artist: 'G',
             date: 1912,
             color: 'colored'
@@ -2089,7 +2089,7 @@ const trial_info = {
             picture: "images/084.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 84,
+            pictureNumber: 84,
             artist: 'G',
             date: 1912,
             color: 'colored'
@@ -2099,7 +2099,7 @@ const trial_info = {
             picture: "images/085.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 85,
+            pictureNumber: 85,
             artist: 'G',
             date: 1914,
             color: 'colored'
@@ -2109,7 +2109,7 @@ const trial_info = {
             picture: "images/086.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 86,
+            pictureNumber: 86,
             artist: 'G',
             date: 1913,
             color: 'colored'
@@ -2119,7 +2119,7 @@ const trial_info = {
             picture: "images/087.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 87,
+            pictureNumber: 87,
             artist: 'G',
             date: 1913,
             color: 'colored'
@@ -2129,7 +2129,7 @@ const trial_info = {
             picture: "images/088.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 88,
+            pictureNumber: 88,
             artist: 'G',
             date: 1916,
             color: 'colored'
@@ -2139,7 +2139,7 @@ const trial_info = {
             picture: "images/089.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 89,
+            pictureNumber: 89,
             artist: 'G',
             date: 1913,
             color: 'colored'
@@ -2149,7 +2149,7 @@ const trial_info = {
             picture: "images/090.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 90,
+            pictureNumber: 90,
             artist: 'G',
             date: 1914,
             color: 'colored'
@@ -2159,7 +2159,7 @@ const trial_info = {
             picture: "images/091.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 91,
+            pictureNumber: 91,
             artist: 'G',
             date: 1915,
             color: 'colored'
@@ -2169,7 +2169,7 @@ const trial_info = {
             picture: "images/092.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 92,
+            pictureNumber: 92,
             artist: 'G',
             date: 1919,
             color: 'monochrome'
@@ -2179,7 +2179,7 @@ const trial_info = {
             picture: "images/093.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 93,
+            pictureNumber: 93,
             artist: 'G',
             date: 1919,
             color: 'monochrome'
@@ -2189,7 +2189,7 @@ const trial_info = {
             picture: "images/094.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 94,
+            pictureNumber: 94,
             artist: 'G',
             date: 1917,
             color: 'monochrome'
@@ -2199,7 +2199,7 @@ const trial_info = {
             picture: "images/095.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 95,
+            pictureNumber: 95,
             artist: 'G',
             date: 1917,
             color: 'monochrome'
@@ -2209,7 +2209,7 @@ const trial_info = {
             picture: "images/096.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 96,
+            pictureNumber: 96,
             artist: 'G',
             date: 1913,
             color: 'monochrome'
@@ -2219,7 +2219,7 @@ const trial_info = {
             picture: "images/097.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 97,
+            pictureNumber: 97,
             artist: 'G',
             date: 1917,
             color: 'monochrome'
@@ -2229,7 +2229,7 @@ const trial_info = {
             picture: "images/098.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 98,
+            pictureNumber: 98,
             artist: 'G',
             date: 1917,
             color: 'monochrome'
@@ -2239,7 +2239,7 @@ const trial_info = {
             picture: "images/099.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 99,
+            pictureNumber: 99,
             artist: 'G',
             date: 1916,
             color: 'monochrome'
@@ -2249,7 +2249,7 @@ const trial_info = {
             picture: "images/100.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 100,
+            pictureNumber: 100,
             artist: 'G',
             date: 1916,
             color: 'monochrome'
@@ -2259,7 +2259,7 @@ const trial_info = {
             picture: "images/101.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 101,
+            pictureNumber: 101,
             artist: 'G',
             date: 1915,
             color: 'monochrome'
@@ -2269,7 +2269,7 @@ const trial_info = {
             picture: "images/102.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 102,
+            pictureNumber: 102,
             artist: 'G',
             date: 1915,
             color: 'monochrome'
@@ -2279,7 +2279,7 @@ const trial_info = {
             picture: "images/103.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 103,
+            pictureNumber: 103,
             artist: 'G',
             date: 1916,
             color: 'monochrome'
@@ -2289,7 +2289,7 @@ const trial_info = {
             picture: "images/104.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 104,
+            pictureNumber: 104,
             artist: 'G',
             date: 1915,
             color: 'monochrome'
@@ -2299,7 +2299,7 @@ const trial_info = {
             picture: "images/105.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 105,
+            pictureNumber: 105,
             artist: 'G',
             date: 1914,
             color: 'monochrome'
@@ -2309,7 +2309,7 @@ const trial_info = {
             picture: "images/106.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 106,
+            pictureNumber: 106,
             artist: 'G',
             date: 1914,
             color: 'monochrome'
@@ -2319,7 +2319,7 @@ const trial_info = {
             picture: "images/107.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 107,
+            pictureNumber: 107,
             artist: 'G',
             date: 1914,
             color: 'monochrome'
@@ -2329,7 +2329,7 @@ const trial_info = {
             picture: "images/108.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 108,
+            pictureNumber: 108,
             artist: 'G',
             date: 1914,
             color: 'monochrome'
@@ -2339,7 +2339,7 @@ const trial_info = {
             picture: "images/109.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 109,
+            pictureNumber: 109,
             artist: 'G',
             date: 1913,
             color: 'monochrome'
@@ -2349,7 +2349,7 @@ const trial_info = {
             picture: "images/110.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 110,
+            pictureNumber: 110,
             artist: 'G',
             date: 1912,
             color: 'monochrome'
@@ -2359,7 +2359,7 @@ const trial_info = {
             picture: "images/111.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 111,
+            pictureNumber: 111,
             artist: 'G',
             date: 1915,
             color: 'monochrome'
@@ -2369,7 +2369,7 @@ const trial_info = {
             picture: "images/112.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 112,
+            pictureNumber: 112,
             artist: 'P',
             date: 1911,
             color: 'colored'
@@ -2379,7 +2379,7 @@ const trial_info = {
             picture: "images/113.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 113,
+            pictureNumber: 113,
             artist: 'P',
             date: 1910,
             color: 'colored'        },
@@ -2388,7 +2388,7 @@ const trial_info = {
             picture: "images/114.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 114,
+            pictureNumber: 114,
             artist: 'B',
             date: 1909,
             color: 'monochrome'
@@ -2398,7 +2398,7 @@ const trial_info = {
             picture: "images/115.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 115,
+            pictureNumber: 115,
             artist: 'P',
             date: 1910,
             color: 'colored'
@@ -2408,7 +2408,7 @@ const trial_info = {
             picture: "images/116.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 116,
+            pictureNumber: 116,
             artist: 'P',
             date: 1911,
             color: 'monochrome'
@@ -2418,7 +2418,7 @@ const trial_info = {
             picture: "images/117.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 117,
+            pictureNumber: 117,
             artist: 'B',
             date: 1910,
             color: 'colored'
@@ -2428,7 +2428,7 @@ const trial_info = {
             picture: "images/118.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 118,
+            pictureNumber: 118,
             artist: 'P',
             date: 1913,
             color: 'monochrome'
@@ -2438,7 +2438,7 @@ const trial_info = {
             picture: "images/119.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 119,
+            pictureNumber: 119,
             artist: 'B',
             date: 1913,
             color: 'colored'
@@ -2448,7 +2448,7 @@ const trial_info = {
             picture: "images/120.jpg",
             optionLeft: "not at all",
             optionRight: "very",
-            picture_number: 120,
+            pictureNumber: 120,
             artist: 'P',
             date: 1912,
             color: 'monochrome'
