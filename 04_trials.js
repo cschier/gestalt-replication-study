@@ -24,7 +24,7 @@ const trial_info = {
     // vision test with Snellen Chart
     visionTest: [
         {
-            question: "Please make sure you are one arm-length away from your computer screen. Write the letters from line 7 (below the green line) into the box below without tabs or spaces in between (just the letters).",
+            question: "Please make sure you are one arm-length away from your computer screen. Write the letters from line 7 (below the green line) into the box below. Please use capital letters without tabs or spaces in between the letters.",
             picture: "vision/Snellen_chart.jpg",
             pictureNumber: 0,
             min_chars: 1,
