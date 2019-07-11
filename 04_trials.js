@@ -1290,7 +1290,7 @@ const trial_info = {
             artist: 'P',
             date: 1910,
             color: 'colored',
-            colorsepia2: 'sepia'
+            color2: 'sepia'
         },
         {
             question: "How much do you like this picture?",
