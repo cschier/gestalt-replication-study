@@ -57,7 +57,8 @@ const trial_info = {
             pictureNumber: 1,
             artist: 'B',
             date: 1909,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -67,7 +68,8 @@ const trial_info = {
             pictureNumber: 2,
             artist: 'B',
             date: 1909,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How much do you like this picture?",
@@ -77,7 +79,8 @@ const trial_info = {
             pictureNumber: 3,
             artist: 'B',
             date: 1910,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How much do you like this picture?",
@@ -87,7 +90,8 @@ const trial_info = {
             pictureNumber: 4,
             artist: 'B',
             date: 1910,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How much do you like this picture?",
@@ -97,7 +101,8 @@ const trial_info = {
             pictureNumber: 5,
             artist: 'B',
             date: 1910,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -107,7 +112,8 @@ const trial_info = {
             pictureNumber: 6,
             artist: 'B',
             date: 1910,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How much do you like this picture?",
@@ -117,7 +123,8 @@ const trial_info = {
             pictureNumber: 7,
             artist: 'B',
             date: 1913,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -127,7 +134,8 @@ const trial_info = {
             pictureNumber: 8,
             artist: 'B',
             date: 1909,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -137,7 +145,8 @@ const trial_info = {
             pictureNumber: 9,
             artist: 'B',
             date: 1911,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How much do you like this picture?",
@@ -147,7 +156,8 @@ const trial_info = {
             pictureNumber: 10,
             artist: 'P',
             date: 1912,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -157,7 +167,8 @@ const trial_info = {
             pictureNumber: 11,
             artist: 'B',
             date: 1911,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How much do you like this picture?",
@@ -167,7 +178,8 @@ const trial_info = {
             pictureNumber: 12,
             artist: 'P',
             date: 1909,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -177,7 +189,8 @@ const trial_info = {
             pictureNumber: 13,
             artist: 'P',
             date: 1912,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -187,7 +200,8 @@ const trial_info = {
             pictureNumber: 14,
             artist: 'P',
             date: 1910,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -197,7 +211,8 @@ const trial_info = {
             pictureNumber: 15,
             artist: 'P',
             date: 1910,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -207,7 +222,8 @@ const trial_info = {
             pictureNumber: 16,
             artist: 'P',
             date: 1910,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How much do you like this picture?",
@@ -217,7 +233,8 @@ const trial_info = {
             pictureNumber: 17,
             artist: 'P',
             date: 1911,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How much do you like this picture?",
@@ -227,7 +244,8 @@ const trial_info = {
             pictureNumber: 18,
             artist: 'P',
             date: 1911,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How much do you like this picture?",
@@ -237,7 +255,8 @@ const trial_info = {
             pictureNumber: 19,
             artist: 'P',
             date: 1911,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -247,7 +266,8 @@ const trial_info = {
             pictureNumber: 20,
             artist: 'P',
             date: 1911,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -257,7 +277,8 @@ const trial_info = {
             pictureNumber: 21,
             artist: 'P',
             date: 1910,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How much do you like this picture?",
@@ -267,7 +288,8 @@ const trial_info = {
             pictureNumber: 22,
             artist: 'P',
             date: 1910,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How much do you like this picture?",
@@ -277,7 +299,8 @@ const trial_info = {
             pictureNumber: 23,
             artist: 'P',
             date: 1911,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -287,7 +310,8 @@ const trial_info = {
             pictureNumber: 24,
             artist: 'P',
             date: 1911,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -297,7 +321,8 @@ const trial_info = {
             pictureNumber: 25,
             artist: 'P',
             date: 1911,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -307,7 +332,8 @@ const trial_info = {
             pictureNumber: 26,
             artist: 'P',
             date: 1911,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How much do you like this picture?",
@@ -317,7 +343,8 @@ const trial_info = {
             pictureNumber: 27,
             artist: 'P',
             date: 1911,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How much do you like this picture?",
@@ -327,7 +354,8 @@ const trial_info = {
             pictureNumber: 28,
             artist: 'P',
             date: 1911,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -337,7 +365,8 @@ const trial_info = {
             pictureNumber: 29,
             artist: 'P',
             date: 1912,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -347,7 +376,8 @@ const trial_info = {
             pictureNumber: 30,
             artist: 'P',
             date: 1912,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How much do you like this picture?",
@@ -357,7 +387,8 @@ const trial_info = {
             pictureNumber: 31,
             artist: 'P',
             date: 1909,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -367,7 +398,8 @@ const trial_info = {
             pictureNumber: 32,
             artist: 'P',
             date: 1910,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How much do you like this picture?",
@@ -377,7 +409,8 @@ const trial_info = {
             pictureNumber: 33,
             artist: 'B',
             date: 1910,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How much do you like this picture?",
@@ -387,7 +420,8 @@ const trial_info = {
             pictureNumber: 34,
             artist: 'B',
             date: 1911,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How much do you like this picture?",
@@ -397,7 +431,8 @@ const trial_info = {
             pictureNumber: 35,
             artist: 'B',
             date: 1911,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How much do you like this picture?",
@@ -407,7 +442,8 @@ const trial_info = {
             pictureNumber: 36,
             artist: 'B',
             date: 1908,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -417,7 +453,8 @@ const trial_info = {
             pictureNumber: 37,
             artist: 'B',
             date: 1909,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -427,7 +464,8 @@ const trial_info = {
             pictureNumber: 38,
             artist: 'B',
             date: 1910,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -437,7 +475,8 @@ const trial_info = {
             pictureNumber: 39,
             artist: 'B',
             date: 1911,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -447,7 +486,8 @@ const trial_info = {
             pictureNumber: 40,
             artist: 'B',
             date: 1912,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -457,7 +497,8 @@ const trial_info = {
             pictureNumber: 41,
             artist: 'B',
             date: 1908,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -467,7 +508,8 @@ const trial_info = {
             pictureNumber: 42,
             artist: 'B',
             date: 1909,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -477,7 +519,8 @@ const trial_info = {
             pictureNumber: 43,
             artist: 'B',
             date: 1909,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -487,7 +530,8 @@ const trial_info = {
             pictureNumber: 44,
             artist: 'B',
             date: 1910,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -497,7 +541,8 @@ const trial_info = {
             pictureNumber: 45,
             artist: 'B',
             date: 1911,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -507,7 +552,8 @@ const trial_info = {
             pictureNumber: 46,
             artist: 'B',
             date: 1911,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -517,7 +563,8 @@ const trial_info = {
             pictureNumber: 47,
             artist: 'B',
             date: 1909,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -527,7 +574,8 @@ const trial_info = {
             pictureNumber: 48,
             artist: 'B',
             date: 1911,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -537,7 +585,8 @@ const trial_info = {
             pictureNumber: 49,
             artist: 'B',
             date: 1911,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -547,7 +596,8 @@ const trial_info = {
             pictureNumber: 50,
             artist: 'B',
             date: 1911,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -557,7 +607,8 @@ const trial_info = {
             pictureNumber: 51,
             artist: 'P',
             date: 1913,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -567,7 +618,8 @@ const trial_info = {
             pictureNumber: 52,
             artist: 'P',
             date: 1911,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -577,7 +629,8 @@ const trial_info = {
             pictureNumber: 53,
             artist: 'P',
             date: 1911,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -587,7 +640,8 @@ const trial_info = {
             pictureNumber: 54,
             artist: 'P',
             date: 1910,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -597,7 +651,8 @@ const trial_info = {
             pictureNumber: 55,
             artist: 'P',
             date: 1911,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -607,7 +662,8 @@ const trial_info = {
             pictureNumber: 56,
             artist: 'P',
             date: 1911,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -617,7 +673,8 @@ const trial_info = {
             pictureNumber: 57,
             artist: 'P',
             date: 1911,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -627,7 +684,8 @@ const trial_info = {
             pictureNumber: 58,
             artist: 'P',
             date: 1914,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -637,7 +695,8 @@ const trial_info = {
             pictureNumber: 59,
             artist: 'P',
             date: 1909,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -647,7 +706,8 @@ const trial_info = {
             pictureNumber: 60,
             artist: 'P',
             date: 1912,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -657,7 +717,8 @@ const trial_info = {
             pictureNumber: 61,
             artist: 'P',
             date: 1909,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -667,7 +728,8 @@ const trial_info = {
             pictureNumber: 62,
             artist: 'P',
             date: 1912,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -677,7 +739,8 @@ const trial_info = {
             pictureNumber: 63,
             artist: 'P',
             date: 1914,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -687,7 +750,8 @@ const trial_info = {
             pictureNumber: 64,
             artist: 'P',
             date: 1911,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -697,7 +761,8 @@ const trial_info = {
             pictureNumber: 65,
             artist: 'B',
             date: 1911,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -707,7 +772,8 @@ const trial_info = {
             pictureNumber: 66,
             artist: 'B',
             date: 1910,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -717,7 +783,8 @@ const trial_info = {
             pictureNumber: 67,
             artist: 'P',
             date: 1911,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -727,7 +794,8 @@ const trial_info = {
             pictureNumber: 68,
             artist: 'P',
             date: 1910,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -737,7 +805,8 @@ const trial_info = {
             pictureNumber: 69,
             artist: 'P',
             date: 1910,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -747,7 +816,8 @@ const trial_info = {
             pictureNumber: 70,
             artist: 'P',
             date: 1910,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -757,7 +827,8 @@ const trial_info = {
             pictureNumber: 71,
             artist: 'P',
             date: 1911,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -767,7 +838,8 @@ const trial_info = {
             pictureNumber: 72,
             artist: 'G',
             date: 1915,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -777,7 +849,8 @@ const trial_info = {
             pictureNumber: 73,
             artist: 'G',
             date: 1914,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -787,7 +860,8 @@ const trial_info = {
             pictureNumber: 74,
             artist: 'G',
             date: 1919,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -797,7 +871,8 @@ const trial_info = {
             pictureNumber: 75,
             artist: 'G',
             date: 1915,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -807,7 +882,8 @@ const trial_info = {
             pictureNumber: 76,
             artist: 'G',
             date: 1915,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -817,7 +893,8 @@ const trial_info = {
             pictureNumber: 77,
             artist: 'G',
             date: 1915,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -827,7 +904,8 @@ const trial_info = {
             pictureNumber: 78,
             artist: 'G',
             date: 1914,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -837,7 +915,8 @@ const trial_info = {
             pictureNumber: 79,
             artist: 'G',
             date: 1914,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -847,7 +926,8 @@ const trial_info = {
             pictureNumber: 80,
             artist: 'G',
             date: 1914,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -857,7 +937,8 @@ const trial_info = {
             pictureNumber: 81,
             artist: 'G',
             date: 1914,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -867,7 +948,8 @@ const trial_info = {
             pictureNumber: 82,
             artist: 'G',
             date: 1913,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -877,7 +959,8 @@ const trial_info = {
             pictureNumber: 83,
             artist: 'G',
             date: 1912,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -887,7 +970,8 @@ const trial_info = {
             pictureNumber: 84,
             artist: 'G',
             date: 1912,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -897,7 +981,8 @@ const trial_info = {
             pictureNumber: 85,
             artist: 'G',
             date: 1914,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -907,7 +992,8 @@ const trial_info = {
             pictureNumber: 86,
             artist: 'G',
             date: 1913,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -917,7 +1003,8 @@ const trial_info = {
             pictureNumber: 87,
             artist: 'G',
             date: 1913,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -927,7 +1014,8 @@ const trial_info = {
             pictureNumber: 88,
             artist: 'G',
             date: 1916,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -937,7 +1025,8 @@ const trial_info = {
             pictureNumber: 89,
             artist: 'G',
             date: 1913,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -947,7 +1036,8 @@ const trial_info = {
             pictureNumber: 90,
             artist: 'G',
             date: 1914,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -957,7 +1047,8 @@ const trial_info = {
             pictureNumber: 91,
             artist: 'G',
             date: 1915,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -967,7 +1058,8 @@ const trial_info = {
             pictureNumber: 92,
             artist: 'G',
             date: 1919,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -977,7 +1069,8 @@ const trial_info = {
             pictureNumber: 93,
             artist: 'G',
             date: 1919,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -987,7 +1080,8 @@ const trial_info = {
             pictureNumber: 94,
             artist: 'G',
             date: 1917,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -997,7 +1091,8 @@ const trial_info = {
             pictureNumber: 95,
             artist: 'G',
             date: 1917,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -1007,7 +1102,8 @@ const trial_info = {
             pictureNumber: 96,
             artist: 'G',
             date: 1913,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -1017,7 +1113,8 @@ const trial_info = {
             pictureNumber: 97,
             artist: 'G',
             date: 1917,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -1027,7 +1124,8 @@ const trial_info = {
             pictureNumber: 98,
             artist: 'G',
             date: 1917,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -1037,7 +1135,8 @@ const trial_info = {
             pictureNumber: 99,
             artist: 'G',
             date: 1916,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -1047,7 +1146,8 @@ const trial_info = {
             pictureNumber: 100,
             artist: 'G',
             date: 1916,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -1057,7 +1157,8 @@ const trial_info = {
             pictureNumber: 101,
             artist: 'G',
             date: 1915,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -1067,7 +1168,8 @@ const trial_info = {
             pictureNumber: 102,
             artist: 'G',
             date: 1915,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -1077,7 +1179,8 @@ const trial_info = {
             pictureNumber: 103,
             artist: 'G',
             date: 1916,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -1087,7 +1190,8 @@ const trial_info = {
             pictureNumber: 104,
             artist: 'G',
             date: 1915,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -1097,7 +1201,8 @@ const trial_info = {
             pictureNumber: 105,
             artist: 'G',
             date: 1914,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -1107,7 +1212,8 @@ const trial_info = {
             pictureNumber: 106,
             artist: 'G',
             date: 1914,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -1117,7 +1223,8 @@ const trial_info = {
             pictureNumber: 107,
             artist: 'G',
             date: 1914,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -1127,7 +1234,8 @@ const trial_info = {
             pictureNumber: 108,
             artist: 'G',
             date: 1914,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -1137,7 +1245,8 @@ const trial_info = {
             pictureNumber: 109,
             artist: 'G',
             date: 1913,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -1147,7 +1256,8 @@ const trial_info = {
             pictureNumber: 110,
             artist: 'G',
             date: 1912,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -1157,7 +1267,8 @@ const trial_info = {
             pictureNumber: 111,
             artist: 'G',
             date: 1915,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -1167,7 +1278,8 @@ const trial_info = {
             pictureNumber: 112,
             artist: 'P',
             date: 1911,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How much do you like this picture?",
@@ -1177,7 +1289,8 @@ const trial_info = {
             pictureNumber: 113,
             artist: 'P',
             date: 1910,
-            color: 'colored'
+            color: 'colored',
+            colorsepia2: 'sepia'
         },
         {
             question: "How much do you like this picture?",
@@ -1187,7 +1300,8 @@ const trial_info = {
             pictureNumber: 114,
             artist: 'B',
             date: 1909,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -1197,7 +1311,8 @@ const trial_info = {
             pictureNumber: 115,
             artist: 'P',
             date: 1910,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How much do you like this picture?",
@@ -1207,7 +1322,8 @@ const trial_info = {
             pictureNumber: 116,
             artist: 'P',
             date: 1911,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -1217,7 +1333,8 @@ const trial_info = {
             pictureNumber: 117,
             artist: 'B',
             date: 1910,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -1227,7 +1344,8 @@ const trial_info = {
             pictureNumber: 118,
             artist: 'P',
             date: 1913,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How much do you like this picture?",
@@ -1237,7 +1355,8 @@ const trial_info = {
             pictureNumber: 119,
             artist: 'B',
             date: 1913,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How much do you like this picture?",
@@ -1247,7 +1366,8 @@ const trial_info = {
             pictureNumber: 120,
             artist: 'P',
             date: 1912,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
     ],
 
@@ -1262,7 +1382,8 @@ const trial_info = {
             pictureNumber: 1,
             artist: 'B',
             date: 1909,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1272,7 +1393,8 @@ const trial_info = {
             pictureNumber: 2,
             artist: 'B',
             date: 1909,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1282,7 +1404,8 @@ const trial_info = {
             pictureNumber: 3,
             artist: 'B',
             date: 1910,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1292,7 +1415,8 @@ const trial_info = {
             pictureNumber: 4,
             artist: 'B',
             date: 1910,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1302,7 +1426,8 @@ const trial_info = {
             pictureNumber: 5,
             artist: 'B',
             date: 1910,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1312,7 +1437,8 @@ const trial_info = {
             pictureNumber: 6,
             artist: 'B',
             date: 1910,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1322,7 +1448,8 @@ const trial_info = {
             pictureNumber: 7,
             artist: 'B',
             date: 1913,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1332,7 +1459,8 @@ const trial_info = {
             pictureNumber: 8,
             artist: 'B',
             date: 1909,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1342,7 +1470,8 @@ const trial_info = {
             pictureNumber: 9,
             artist: 'B',
             date: 1911,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1352,7 +1481,8 @@ const trial_info = {
             pictureNumber: 10,
             artist: 'P',
             date: 1912,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1362,7 +1492,8 @@ const trial_info = {
             pictureNumber: 11,
             artist: 'B',
             date: 1911,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1372,7 +1503,8 @@ const trial_info = {
             pictureNumber: 12,
             artist: 'P',
             date: 1909,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1382,7 +1514,8 @@ const trial_info = {
             pictureNumber: 13,
             artist: 'P',
             date: 1912,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1392,7 +1525,8 @@ const trial_info = {
             pictureNumber: 14,
             artist: 'P',
             date: 1910,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1402,7 +1536,8 @@ const trial_info = {
             pictureNumber: 15,
             artist: 'P',
             date: 1910,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1412,7 +1547,8 @@ const trial_info = {
             pictureNumber: 16,
             artist: 'P',
             date: 1910,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1422,7 +1558,8 @@ const trial_info = {
             pictureNumber: 17,
             artist: 'P',
             date: 1911,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1432,7 +1569,8 @@ const trial_info = {
             pictureNumber: 18,
             artist: 'P',
             date: 1911,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1442,7 +1580,8 @@ const trial_info = {
             pictureNumber: 19,
             artist: 'P',
             date: 1911,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1452,7 +1591,8 @@ const trial_info = {
             pictureNumber: 20,
             artist: 'P',
             date: 1911,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1462,7 +1602,8 @@ const trial_info = {
             pictureNumber: 21,
             artist: 'P',
             date: 1910,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1472,7 +1613,8 @@ const trial_info = {
             pictureNumber: 22,
             artist: 'P',
             date: 1910,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1482,7 +1624,8 @@ const trial_info = {
             pictureNumber: 23,
             artist: 'P',
             date: 1911,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1492,7 +1635,8 @@ const trial_info = {
             pictureNumber: 24,
             artist: 'P',
             date: 1911,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1502,7 +1646,8 @@ const trial_info = {
             pictureNumber: 25,
             artist: 'P',
             date: 1911,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1512,7 +1657,8 @@ const trial_info = {
             pictureNumber: 26,
             artist: 'P',
             date: 1911,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1522,7 +1668,8 @@ const trial_info = {
             pictureNumber: 27,
             artist: 'P',
             date: 1911,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1532,7 +1679,8 @@ const trial_info = {
             pictureNumber: 28,
             artist: 'P',
             date: 1911,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1542,7 +1690,8 @@ const trial_info = {
             pictureNumber: 29,
             artist: 'P',
             date: 1912,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1552,7 +1701,8 @@ const trial_info = {
             pictureNumber: 30,
             artist: 'P',
             date: 1912,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1562,7 +1712,8 @@ const trial_info = {
             pictureNumber: 31,
             artist: 'P',
             date: 1909,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1572,7 +1723,8 @@ const trial_info = {
             pictureNumber: 32,
             artist: 'P',
             date: 1910,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1582,7 +1734,8 @@ const trial_info = {
             pictureNumber: 33,
             artist: 'B',
             date: 1910,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1592,7 +1745,8 @@ const trial_info = {
             pictureNumber: 34,
             artist: 'B',
             date: 1911,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1602,7 +1756,8 @@ const trial_info = {
             pictureNumber: 35,
             artist: 'B',
             date: 1911,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1612,7 +1767,8 @@ const trial_info = {
             pictureNumber: 36,
             artist: 'B',
             date: 1908,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1622,7 +1778,8 @@ const trial_info = {
             pictureNumber: 37,
             artist: 'B',
             date: 1909,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1632,7 +1789,8 @@ const trial_info = {
             pictureNumber: 38,
             artist: 'B',
             date: 1910,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1642,7 +1800,8 @@ const trial_info = {
             pictureNumber: 39,
             artist: 'B',
             date: 1911,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1652,7 +1811,8 @@ const trial_info = {
             pictureNumber: 40,
             artist: 'B',
             date: 1912,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1662,7 +1822,8 @@ const trial_info = {
             pictureNumber: 41,
             artist: 'B',
             date: 1908,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1672,7 +1833,8 @@ const trial_info = {
             pictureNumber: 42,
             artist: 'B',
             date: 1909,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1682,7 +1844,8 @@ const trial_info = {
             pictureNumber: 43,
             artist: 'B',
             date: 1909,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1692,7 +1855,8 @@ const trial_info = {
             pictureNumber: 44,
             artist: 'B',
             date: 1910,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1702,7 +1866,8 @@ const trial_info = {
             pictureNumber: 45,
             artist: 'B',
             date: 1911,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1712,7 +1877,8 @@ const trial_info = {
             pictureNumber: 46,
             artist: 'B',
             date: 1911,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1722,7 +1888,8 @@ const trial_info = {
             pictureNumber: 47,
             artist: 'B',
             date: 1909,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1732,7 +1899,8 @@ const trial_info = {
             pictureNumber: 48,
             artist: 'B',
             date: 1911,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1742,7 +1910,8 @@ const trial_info = {
             pictureNumber: 49,
             artist: 'B',
             date: 1911,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1752,7 +1921,8 @@ const trial_info = {
             pictureNumber: 50,
             artist: 'B',
             date: 1911,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1762,7 +1932,8 @@ const trial_info = {
             pictureNumber: 51,
             artist: 'P',
             date: 1913,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1772,7 +1943,8 @@ const trial_info = {
             pictureNumber: 52,
             artist: 'P',
             date: 1911,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1782,7 +1954,8 @@ const trial_info = {
             pictureNumber: 53,
             artist: 'P',
             date: 1911,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1792,7 +1965,8 @@ const trial_info = {
             pictureNumber: 54,
             artist: 'P',
             date: 1910,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1802,7 +1976,8 @@ const trial_info = {
             pictureNumber: 55,
             artist: 'P',
             date: 1911,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1812,7 +1987,8 @@ const trial_info = {
             pictureNumber: 56,
             artist: 'P',
             date: 1911,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1822,7 +1998,8 @@ const trial_info = {
             pictureNumber: 57,
             artist: 'P',
             date: 1911,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1832,7 +2009,8 @@ const trial_info = {
             pictureNumber: 58,
             artist: 'P',
             date: 1914,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1842,7 +2020,8 @@ const trial_info = {
             pictureNumber: 59,
             artist: 'P',
             date: 1909,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1852,7 +2031,8 @@ const trial_info = {
             pictureNumber: 60,
             artist: 'P',
             date: 1912,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1862,7 +2042,8 @@ const trial_info = {
             pictureNumber: 61,
             artist: 'P',
             date: 1909,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1872,7 +2053,8 @@ const trial_info = {
             pictureNumber: 62,
             artist: 'P',
             date: 1912,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1882,7 +2064,8 @@ const trial_info = {
             pictureNumber: 63,
             artist: 'P',
             date: 1914,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1892,7 +2075,8 @@ const trial_info = {
             pictureNumber: 64,
             artist: 'P',
             date: 1911,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1902,7 +2086,8 @@ const trial_info = {
             pictureNumber: 65,
             artist: 'B',
             date: 1911,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1912,7 +2097,8 @@ const trial_info = {
             pictureNumber: 66,
             artist: 'B',
             date: 1910,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1922,7 +2108,8 @@ const trial_info = {
             pictureNumber: 67,
             artist: 'P',
             date: 1911,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1932,7 +2119,8 @@ const trial_info = {
             pictureNumber: 68,
             artist: 'P',
             date: 1910,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1942,7 +2130,8 @@ const trial_info = {
             pictureNumber: 69,
             artist: 'P',
             date: 1910,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1952,7 +2141,8 @@ const trial_info = {
             pictureNumber: 70,
             artist: 'P',
             date: 1910,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1962,7 +2152,8 @@ const trial_info = {
             pictureNumber: 71,
             artist: 'P',
             date: 1911,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1972,7 +2163,8 @@ const trial_info = {
             pictureNumber: 72,
             artist: 'G',
             date: 1915,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1982,7 +2174,8 @@ const trial_info = {
             pictureNumber: 73,
             artist: 'G',
             date: 1914,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -1992,7 +2185,8 @@ const trial_info = {
             pictureNumber: 74,
             artist: 'G',
             date: 1919,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2002,7 +2196,8 @@ const trial_info = {
             pictureNumber: 75,
             artist: 'G',
             date: 1915,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2012,7 +2207,8 @@ const trial_info = {
             pictureNumber: 76,
             artist: 'G',
             date: 1915,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2022,7 +2218,8 @@ const trial_info = {
             pictureNumber: 77,
             artist: 'G',
             date: 1915,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2032,7 +2229,8 @@ const trial_info = {
             pictureNumber: 78,
             artist: 'G',
             date: 1914,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2042,7 +2240,8 @@ const trial_info = {
             pictureNumber: 79,
             artist: 'G',
             date: 1914,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2052,7 +2251,8 @@ const trial_info = {
             pictureNumber: 80,
             artist: 'G',
             date: 1914,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2062,7 +2262,8 @@ const trial_info = {
             pictureNumber: 81,
             artist: 'G',
             date: 1914,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2072,7 +2273,8 @@ const trial_info = {
             pictureNumber: 82,
             artist: 'G',
             date: 1913,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2082,7 +2284,8 @@ const trial_info = {
             pictureNumber: 83,
             artist: 'G',
             date: 1912,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2092,7 +2295,8 @@ const trial_info = {
             pictureNumber: 84,
             artist: 'G',
             date: 1912,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2102,7 +2306,8 @@ const trial_info = {
             pictureNumber: 85,
             artist: 'G',
             date: 1914,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2112,7 +2317,8 @@ const trial_info = {
             pictureNumber: 86,
             artist: 'G',
             date: 1913,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2122,7 +2328,8 @@ const trial_info = {
             pictureNumber: 87,
             artist: 'G',
             date: 1913,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2132,7 +2339,8 @@ const trial_info = {
             pictureNumber: 88,
             artist: 'G',
             date: 1916,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2142,7 +2350,8 @@ const trial_info = {
             pictureNumber: 89,
             artist: 'G',
             date: 1913,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2152,7 +2361,8 @@ const trial_info = {
             pictureNumber: 90,
             artist: 'G',
             date: 1914,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2162,7 +2372,8 @@ const trial_info = {
             pictureNumber: 91,
             artist: 'G',
             date: 1915,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2172,7 +2383,8 @@ const trial_info = {
             pictureNumber: 92,
             artist: 'G',
             date: 1919,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2182,7 +2394,8 @@ const trial_info = {
             pictureNumber: 93,
             artist: 'G',
             date: 1919,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2192,7 +2405,8 @@ const trial_info = {
             pictureNumber: 94,
             artist: 'G',
             date: 1917,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2202,7 +2416,8 @@ const trial_info = {
             pictureNumber: 95,
             artist: 'G',
             date: 1917,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2212,7 +2427,8 @@ const trial_info = {
             pictureNumber: 96,
             artist: 'G',
             date: 1913,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2222,7 +2438,8 @@ const trial_info = {
             pictureNumber: 97,
             artist: 'G',
             date: 1917,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2232,7 +2449,8 @@ const trial_info = {
             pictureNumber: 98,
             artist: 'G',
             date: 1917,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2242,7 +2460,8 @@ const trial_info = {
             pictureNumber: 99,
             artist: 'G',
             date: 1916,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2252,7 +2471,8 @@ const trial_info = {
             pictureNumber: 100,
             artist: 'G',
             date: 1916,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2262,7 +2482,8 @@ const trial_info = {
             pictureNumber: 101,
             artist: 'G',
             date: 1915,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2272,7 +2493,8 @@ const trial_info = {
             pictureNumber: 102,
             artist: 'G',
             date: 1915,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2282,7 +2504,8 @@ const trial_info = {
             pictureNumber: 103,
             artist: 'G',
             date: 1916,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2292,7 +2515,8 @@ const trial_info = {
             pictureNumber: 104,
             artist: 'G',
             date: 1915,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2302,7 +2526,8 @@ const trial_info = {
             pictureNumber: 105,
             artist: 'G',
             date: 1914,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2312,7 +2537,8 @@ const trial_info = {
             pictureNumber: 106,
             artist: 'G',
             date: 1914,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2322,7 +2548,8 @@ const trial_info = {
             pictureNumber: 107,
             artist: 'G',
             date: 1914,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2332,7 +2559,8 @@ const trial_info = {
             pictureNumber: 108,
             artist: 'G',
             date: 1914,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2342,7 +2570,8 @@ const trial_info = {
             pictureNumber: 109,
             artist: 'G',
             date: 1913,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2352,7 +2581,8 @@ const trial_info = {
             pictureNumber: 110,
             artist: 'G',
             date: 1912,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2362,7 +2592,8 @@ const trial_info = {
             pictureNumber: 111,
             artist: 'G',
             date: 1915,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2372,7 +2603,8 @@ const trial_info = {
             pictureNumber: 112,
             artist: 'P',
             date: 1911,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2382,7 +2614,9 @@ const trial_info = {
             pictureNumber: 113,
             artist: 'P',
             date: 1910,
-            color: 'colored'        },
+            color: 'colored',
+            color2: 'sepia'        
+        },
         {
             question: "How well can you detect objects within this artwork?",
             picture: "images/114.jpg",
@@ -2391,7 +2625,8 @@ const trial_info = {
             pictureNumber: 114,
             artist: 'B',
             date: 1909,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2401,7 +2636,8 @@ const trial_info = {
             pictureNumber: 115,
             artist: 'P',
             date: 1910,
-            color: 'colored'
+            color: 'colored',
+            color2: 'sepia'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2411,7 +2647,8 @@ const trial_info = {
             pictureNumber: 116,
             artist: 'P',
             date: 1911,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2421,7 +2658,8 @@ const trial_info = {
             pictureNumber: 117,
             artist: 'B',
             date: 1910,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2431,7 +2669,8 @@ const trial_info = {
             pictureNumber: 118,
             artist: 'P',
             date: 1913,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2441,7 +2680,8 @@ const trial_info = {
             pictureNumber: 119,
             artist: 'B',
             date: 1913,
-            color: 'colored'
+            color: 'colored',
+            color2: 'colored'
         },
         {
             question: "How well can you detect objects within this artwork?",
@@ -2451,7 +2691,8 @@ const trial_info = {
             pictureNumber: 120,
             artist: 'P',
             date: 1912,
-            color: 'monochrome'
+            color: 'monochrome',
+            color2: 'monochrome'
         },
     ]
 
