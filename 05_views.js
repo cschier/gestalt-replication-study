@@ -81,10 +81,10 @@ const post_test = babeViews.view_generator("post_test",{
     trials: 1,
     name: 'post_test',
     title: 'Additional information',
-    text: 'Answering the following questions is optional, but your answers will help us analyze our results.'
+    text: 'Answering the following questions is optional, but your answers will help us analyze our results. Even if you do not enter additional information, please always press the submit button at the end of the page. Otherwise, your data will not be saved.',
 
     // You can change much of what appears here, e.g., to present it in a different language, as follows:
-    // buttonText: 'Weiter',
+    buttonText: 'submit',
     // age_question: 'Alter',
     // gender_question: 'Geschlecht',
     // gender_male: 'männlich',
