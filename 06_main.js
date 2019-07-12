@@ -30,13 +30,13 @@ $("document").ready(function() {
         ],
         // Here, you can specify all information for the deployment
         deploy: {
-            experimentID: "INSERT_A_NUMBER",
-            serverAppURL: "https://babe-demo.herokuapp.com/api/submit_experiment/",
+            experimentID: "76",
+            serverAppURL: "https://babe-backend.herokuapp.com/api/submit_experiment/76",
             // Possible deployment methods are:
             // "debug" and "directLink"
             // As well as "MTurk", "MTurkSandbox" and "Prolific"
-            deployMethod: "debug",
-            contact_email: "YOUREMAIL@wherelifeisgreat.you",
+            deployMethod: "directLink",
+            contact_email: "cschier@uos.de",
             prolificURL: "https://app.prolific.ac/submissions/complete?cc=SAMPLE1234"
         },
         // Here, you can specify how the progress bar should look like
