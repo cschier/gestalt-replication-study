@@ -30,8 +30,8 @@ glimpse(raw_data)
 Rename variables
 ```{r}
 data = rename(raw_data,
-  submissionID = `submission+AF8-id`,
-  trialName = `trial+AF8-name`
+  submissionID = `submission_id`,
+  trialName = `trial_name`
 )
 
 glimpse(data)
