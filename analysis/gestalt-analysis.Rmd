@@ -229,7 +229,7 @@ glimpse(d)
 
 ANALYSIS
 
-Pearon correlation of liking and detectability: 
+Pearson correlation of liking and detectability: 
 ```{r}
 cor(as.numeric(d$liking), as.numeric(d$detectability))
 ```
