@@ -344,12 +344,19 @@ marginal_effects(m5, categorical = F)
 
 Save current workspace to be able to compare which model fits best afterwards
 ```{r}
-
-<<<<<<< HEAD
 save.image("models.RData")
+```
+
+Analyse which model fits our data best
+```{r}
+load("models.RData")
+
+m1 <- add_criterion(m1, "waic")
+m2 <- add_criterion(m2, "waic")
+m3 <- add_criterion(m3, "waic")
+m4 <- add_criterion(m4, "waic")
+m5 <- add_criterion(m5, "waic")
+
+loo_compare(m1, m2, m3, m4, m5, criterion = "waic")
 
 ```
-=======
-loo(m1, m2, m3, m4, m5)
-```
->>>>>>> 54cf8aec55bab9c879016dfa0d7b853d86e8e788
