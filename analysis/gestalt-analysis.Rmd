@@ -1,0 +1,355 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warnings = FALSE)
+```
+
+Load the required packages and set a seed for the random number generator.
+```{r}
+library(tidyverse)
+
+library(rstan)
+# set cores to use to the total number of cores (minimally 4)
+options(mc.cores = max(parallel::detectCores(), 4))
+# save a compiled version of the Stan model file
+rstan_options(auto_write = TRUE)
+
+library(brms)
+
+# install faintr with devtools::install_github('michael-franke/bayes_mixed_regression_tutorial/faintr', build_vignettes = TRUE)
+library(faintr)
+
+set.seed(123)
+
+```
+
+Read the data:
+```{r}
+raw_data = read_csv("results.csv")
+glimpse(raw_data)
+```  
+
+Rename variables
+```{r}
+data = rename(raw_data,
+  submissionID = `submission_id`,
+  trialName = `trial_name`
+)
+
+glimpse(data)
+```
+
+Select only the variables that are important for the analysis:
+```{r}
+data = select(data, submissionID, trialName, 
+         response, pictureNumber, artist, date, 
+         age, gender, timeSpent, color, color2)
+
+glimpse(data)
+
+```
+
+Exclude participants from the data that we don't want to have. 
+Also find out why we had to exclude them.
+```{r}
+data_ex <- data
+
+fehlerCV1 = 0
+fehlerCV2 = 0
+fehlerV = 0
+fehlerExp = 0
+fehlerT = 0
+fehlerXP = 0
+
+
+for(i in 1:(nrow(data) / 245)) {
+  
+  # colorVisionTest1
+  if(data[((i - 1)*245 + 1), ]$response != "74") {
+    data_ex = filter(data_ex, submissionID != data[((i - 1)*245 + 1), ]$submissionID)
+    
+    fehlerCV1 = fehlerCV1 + 1
+    
+  # colorVisionTest2
+  } else if(data[((i - 1)*245 + 2), ]$response != "7") {
+    data_ex = filter(data_ex, submissionID != data[((i - 1)*245 + 2), ]$submissionID)
+    
+     fehlerCV2 = fehlerCV2 + 1
+     
+  # visionTest
+  } else if(data[((i - 1)*245 + 3), ]$response != "FELOPZD") {
+    data_ex = filter(data_ex, submissionID != data[((i - 1)*245 + 3), ]$submissionID)
+    
+     fehlerV = fehlerV + 1
+     
+  # expertise 
+  } else if(as.integer(data[((i - 1)*245 + 244), ]$response) > 5) {
+     data_ex = filter(data_ex, submissionID != data[((i - 1)*245 + 244), ]$submissionID)
+   
+      fehlerExp = fehlerExp + 1
+      
+  # time spent 
+  } else if(data[((i - 1)*245 + 1), ]$timeSpent < 5) {
+     data_ex = filter(data_ex, submissionID != data[((i - 1)*245 + 1), ]$submissionID)
+   
+      fehlerT = fehlerT + 1
+      
+  # exclude participants that took part in the course Experimental Psychology Lab
+  } else if(data[((i - 1)*245 + 245), ]$response == "Yes") {
+    data_ex = filter(data_ex, submissionID != data[((i - 1)*245 + 245), ]$submissionID)
+    
+     fehlerXP = fehlerXP + 1
+     
+  }
+  
+}
+
+glimpse(data_ex)
+
+print(c("Number of excluded participants because of colorVisionTest1: ", fehlerCV1))
+print(c("Number of excluded participants because of colorVisionTest2: ", fehlerCV2))
+print(c("Number of excluded participants because of VisionTest: ", fehlerV))
+print(c("Number of excluded participants because of their expertise level in cubism: ", fehlerExp))
+print(c("Number of excluded participants because of TimeSpent: ", fehlerT))
+print(c("Number of excluded participants because of participation in XPLab: ", fehlerXP))
+
+```
+
+Calculate age mean, age range and gender distribution, number of participants:
+```{r}
+data_ex %>% summarise(meanAge = mean(na.exclude(age)))
+
+gender_distribution = count(data_ex, gender) 
+gender_distribution$n =  gender_distribution$n / 245
+
+print(c("Age range: ", range(na.exclude(data_ex$age))))
+
+participants = nrow(data) / 245
+participants_valid = nrow(data_ex) / 245
+    
+print(gender_distribution)
+print(c("Total number of participants: ", participants))
+print(c("Number of valid participants: ", participants_valid))
+
+```
+
+transform the data into right form: 
+```{r}
+d = filter(data_ex, trialName %in% c("ratingScaleLike", 
+                                 "ratingScaleDetect")) %>%
+  select(submissionID, trialName, pictureNumber, artist, date, response, color, color2) %>% 
+  spread(key = trialName, value = response) 
+
+d$ratingScaleLike <- as.numeric(d$ratingScaleLike)
+d$ratingScaleDetect <- as.numeric(d$ratingScaleDetect)
+
+d = rename(d, detectability = ratingScaleDetect, liking = ratingScaleLike)
+
+glimpse(d)
+```
+
+Check that everything is there and of the correct type:
+```{r}
+d_tibble <- as_tibble(d)
+
+print(d_tibble)
+
+```
+
+inspect the data with x = detectability and y = liking for the different participants
+This part is just for our interest.
+```{r}
+ggplot(d, aes(x = detectability, y = liking, group = submissionID)) + geom_jitter() + geom_smooth(method = "lm") + labs(x = "Detectability", y = "Liking")
+
+```
+
+inspect the data x = detectability and y = liking
+```{r}
+ggplot(d, aes(x = detectability, y = liking)) + geom_jitter() + geom_smooth(method = "lm") + labs(x = "Detectability", y = "Liking")
+ggplot(d, aes(x = detectability, y = liking)) + geom_point() + geom_smooth(method = "lm") + labs(x = "Detectability", y = "Liking")
+```
+
+Boxplots that shows liking and detectability 
+```{r}
+ggplot(d, aes(x = detectability, y = liking, group = detectability)) + geom_jitter() + geom_boxplot() + labs(x = "Detectability", y = "Liking")
+ggplot(d, aes(x = detectability, y = liking, group = detectability)) + geom_boxplot() + labs(x = "Detectability", y = "Liking")
+```
+
+calculate means for detectability:
+```{r}
+d %>% group_by(liking) %>% summarise(meanDetect = mean(detectability))
+```
+
+calculate means for liking:
+```{r}
+d %>% group_by(detectability) %>% summarise(meanLike = mean(liking))
+```
+
+calculate means for different artists:
+```{r}
+d %>% group_by(artist) %>% summarise(meanLike = mean(liking), meanDetect = mean(detectability))
+
+```
+
+Boxplots and graphs that show liking and detectability (for the different artists)
+```{r}
+dataB <- d %>% filter(artist == "B")
+dataP <- d %>% filter(artist == "P")
+dataG <- d %>% filter(artist == "G")
+
+ggplot(dataB, aes(x = detectability, y = liking, group = detectability)) + geom_boxplot() + labs(x = "Detectability", y = "Liking", title = "Braque")
+ggplot(dataP, aes(x = detectability, y = liking, group = detectability)) + geom_boxplot() + labs(x = "Detectability", y = "Liking", title = "Picasso")
+ggplot(dataG, aes(x = detectability, y = liking, group = detectability)) + geom_boxplot() + labs(x = "Detectability", y = "Liking", title = "Gris")
+
+ggplot(dataB, aes(x = detectability, y = liking)) + geom_point() + geom_smooth(method = "lm") + labs(x = "Detectability", y = "Liking", title = "Braque")
+ggplot(dataP, aes(x = detectability, y = liking)) + geom_point() + geom_smooth(method = "lm") + labs(x = "Detectability", y = "Liking", title = "Picasso")
+ggplot(dataG, aes(x = detectability, y = liking)) + geom_point() + geom_smooth(method = "lm") + labs(x = "Detectability", y = "Liking", title = "Gris")
+
+```
+
+Graphs / boxplots that show liking and detectability (for the different artists in one graph / boxplot)
+```{r}
+ggplot(d, aes(x = detectability, y = liking, fill = artist)) + geom_point() + geom_smooth(method = "lm") + labs(x = "Detectability", y = "Liking", title = "Different artists", fill = "Artist")
+
+ggplot(d, aes(x = as.factor(detectability), y = liking, fill = artist)) + geom_boxplot()  + labs(x = "Detectability", y = "Liking", title = "Different artists", fill = "Artist")
+
+```
+
+Graphs / boxplots that show liking and detectability (for the color vs. monochrome in one graph / boxplot)
+```{r}
+ggplot(d, aes(x = detectability, y = liking, fill = color)) + geom_point() + geom_smooth(method = "lm" ) + labs(x = "Detectability", y = "Liking", title = "Different colors", fill = "Color")
+
+ggplot(d, aes(x = as.factor(detectability), y = liking, fill = color)) + geom_boxplot() + labs(x = "Detectability", y = "Liking", title = "Different colors", fill = "Color")
+
+```
+
+Graphs / boxplots that show liking and detectability (for the color vs. monochrome vs. sepia in one graph / boxplot)
+```{r}
+ggplot(d, aes(x = detectability, y = liking, fill = color2)) + geom_point() + geom_smooth(method = "lm") + labs(x = "Detectability", y = "Liking", title = "Different colors", fill = "Color")
+
+ggplot(d, aes(x = as.factor(detectability), y = liking, fill = color2)) + geom_boxplot() + labs(x = "Detectability", y = "Liking", title = "Different colors", fill = "Color")
+
+```
+
+calculate means for different colors:
+```{r}
+d %>% group_by(color2) %>% summarise(meanLike = mean(liking))
+
+```
+
+Boxplots and graphs that show liking and detectability (for the different time span)
+```{r}
+data1 <- d %>% filter(date <= 1911)
+data2 <- d %>% filter(date >= 1912, date <= 1915)
+data3 <- d %>% filter(date >= 1916)
+
+ggplot(data1, aes(x = detectability, y = liking, group = detectability)) + geom_boxplot() + labs(x = "Detectability", y = "Liking", title = "Paintings from 1908-1911")
+ggplot(data2, aes(x = detectability, y = liking, group = detectability)) + geom_boxplot() + labs(x = "Detectability", y = "Liking", title = "Paintings from 1912-1915")
+ggplot(data3, aes(x = detectability, y = liking, group = detectability)) + geom_boxplot() + labs(x = "Detectability", y = "Liking", title = "Paintings from 1916-1919")
+
+ggplot(data1, aes(x = detectability, y = liking)) + geom_point() + geom_smooth(method = "lm") + labs(x = "Detectability", y = "Liking", title = "Paintings from 1908-1911")
+ggplot(data2, aes(x = detectability, y = liking)) + geom_point() + geom_smooth(method = "lm") + labs(x = "Detectability", y = "Liking", title = "Paintings from 1912-1915")
+ggplot(data3, aes(x = detectability, y = liking)) + geom_point() + geom_smooth(method = "lm") + labs(x = "Detectability", y = "Liking", title = "Paintings from 1916-1919")
+
+```
+
+prepare the data for the analysis:
+```{r}
+d = mutate(d, 
+           liking = factor(liking, ordered = T),
+           detectability = factor(detectability, ordered = T),
+           color = factor(color),
+           color2 = factor(color2),
+           artist = factor(artist)
+           )
+glimpse(d)
+```
+
+ANALYSIS
+
+Pearson correlation of liking and detectability: 
+```{r}
+cor(as.numeric(d$liking), as.numeric(d$detectability))
+```
+
+M1. simple analysis: "objects" ratings treated interval scale / metric
+Calculate the difference of the sample points: compare the sample points for each category of detectability (2 to 7) to the sample points from detectability = 1. 
+```{r}
+m1 = brm(formula = liking ~ detectability,
+         data = d,
+         family = cumulative("logit"))
+
+print(m1)
+
+marginal_effects(m1, categorical = T)
+marginal_effects(m1, categorical = F)
+```
+
+M2: Model that treats detectability as monotonic and includes random effects
+```{r}
+
+m2 = brm(formula = liking ~ mo(detectability) + (1|submissionID),
+         data = d,
+         family = "cumulative")
+
+print(m2)
+
+marginal_effects(m2, categorical = T)
+marginal_effects(m2, categorical = F)
+
+```
+
+M3: Model that treats detectability as monotonic
+```{r}
+
+m3 = brm(formula = liking ~ mo(detectability),
+         data = d,
+         family = "cumulative")
+
+print(m3)
+
+marginal_effects(m3, categorical = T)
+marginal_effects(m3, categorical = F)
+
+```
+
+M4: Model that additionlly includes artist and color as an independent variable and includes random effects
+```{r}
+
+m4 = brm(formula = liking ~ mo(detectability) + artist + color2 + (1|submissionID), 
+         data = d,
+         family = "cumulative")
+
+print(m4)
+
+marginal_effects(m4, categorical = T)
+marginal_effects(m4, categorical = F)
+```
+
+M5: Like M4, but without random effects
+```{r}
+
+m5 = brm(formula = liking ~ mo(detectability) + artist + color2, 
+          data = d,
+          family = "cumulative")
+
+print(m5)
+
+marginal_effects(m5, categorical = T)
+marginal_effects(m5, categorical = F)
+```
+
+Save current workspace to be able to compare which model fits best afterwards
+```{r}
+
+<<<<<<< HEAD
+save.image("models.RData")
+
+```
+=======
+loo(m1, m2, m3, m4, m5)
+```
+>>>>>>> 54cf8aec55bab9c879016dfa0d7b853d86e8e788
