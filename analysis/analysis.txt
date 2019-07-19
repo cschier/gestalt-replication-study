@@ -1,1 +1,1 @@
-To run the analysis, you need to download the Rmd-file and the csv-file containing the data.
+To run the analysis, you need to download the gestalt-analysis.Rmd file and the csv-file containing the data.
