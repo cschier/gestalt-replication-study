@@ -275,10 +275,10 @@ Pearson correlation of liking and detectability:
 cor(as.numeric(d$liking), as.numeric(d$detectability))
 ```
 
-M1. simple analysis: "objects" ratings treated interval scale / metric
+M1. simple analysis: Treat the detectability scale as a factor.
 Calculate the difference of the sample points: compare the sample points for each category of detectability (2 to 7) to the sample points from detectability = 1. 
 ```{r}
-m1 = brm(formula = liking ~ detectability,
+m1 = brm(formula = liking ~ as.numeric(detectability),
          data = d,
          family = cumulative("logit"))
 
