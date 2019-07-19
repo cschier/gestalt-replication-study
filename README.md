@@ -1,8 +1,4 @@
-# Experimental-Psychology-Final-Experiment
-
-### Useful links
-* [Netlify Link](https://xplab-gr8.netlify.com/)
-* [Preregistration Report](https://docs.google.com/document/d/1tr6SvQOqWkJqjIt4i2vh7IB0SBpJD8ZG5ONaFP_JUNg/edit?ts=5d01f862)
+# Experimental Psychology Lab: Final Experiment
 
 ## About this repository
 This repository contains all the files for our final project of the course "Experimental Psychology Lab". The project is a web-based experiment, a replication of the study "Give me gestalt! Preference for cubist artworks revealing high detectability of objects" (Muth et al, 2012).
@@ -14,6 +10,3 @@ We have 3 hypotheses:
 * Hypothesis 1: Viewers prefer paintings in which they are able to detect more ‘objects’.
 * Hypothesis 2: How much a viewer likes a painting is significantly affected by its color.
 * Hypothesis 3: How much a viewer likes a painting is significantly affected by its artist (which stands for its style).
-
-
-
